@@ -16,18 +16,35 @@ hr {
   border: 10px solid #ff6000;
 }
 
+.header .ocultar {
+  display: none;
+}
+
 /* Header */
 .header {
   background: #191919;
   height: 150px;
   align-items: center;
+  justify-content: space-between;
+}
+
+.header ul li a.inicio {
+  color: #ff6000;
 }
 
 .logo-header {
   width: 300px;
   height: 100px;
-
   margin-left: 90px;
+}
+
+.header ul {
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.header ul li {
+  margin: 0 30px;
 }
 
 .header ul li a {
@@ -140,8 +157,17 @@ hr {
 
 .quote p {
   margin-left: 40px;
-  width: 300px;
+  width: 400px;
   padding-top: 10px;
+}
+
+.quote p span {
+  color: #ff6000;
+}
+
+.quote p a img {
+  width: 15px;
+  height: 15px;
 }
 
 .title {
@@ -171,4 +197,133 @@ footer p {
   margin-left: 180px;
   margin-top: 75px;
   font-size: 25px;
+}
+
+@media only screen and (max-width: 787px) {
+  button {
+    background: none;
+    border: 5px solid #00ff47;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .logo-header {
+    width: 300px;
+    height: 100px;
+    margin: 0 40px;
+  }
+
+  .first-section {
+    background: url("/assets/img/4oWSXdeAS2g\ \(1\).png") no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+  .first-section .bg-iphone h1 {
+    font-size: 35px;
+    width: 350px;
+    text-align: left;
+    color: #faf7f7;
+    margin: 0 auto;
+    padding: 30px 0 10px 0;
+  }
+
+  .first-section .bg-iphone article p {
+    display: block;
+    font-size: 18px;
+    margin-left: 0;
+    padding-left: 0;
+    width: 350px;
+    padding-top: 0;
+  }
+
+  .first-section .bg-iphone a button {
+    color: #faf7f7;
+    border-radius: 8px;
+    margin: 20px 30px;
+  }
+
+  .second-section h1 {
+    font-size: 35px;
+    color: #191919;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .cards {
+    display: block;
+    margin: 20px 45px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .div-button {
+    padding-left: 0px;
+    margin: 50px 50px 0 50px;
+    padding-bottom: 50px;
+  }
+
+  .div-button a button {
+    color: #191919;
+    border-radius: 8px;
+  }
+
+  .third-section h1 {
+    color: #faf7f7;
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .informacoes h3:first-child {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+  }
+
+  .mascote {
+    display: flex;
+  }
+
+  .quote {
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+  }
+
+  .quote p {
+    margin-left: 40px;
+    width: 300px;
+    padding-top: 10px;
+  }
+
+  .quote p span {
+    color: #ff6000;
+  }
+
+  .quote p a img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .title {
+    padding-left: 200px;
+  }
+
+  .third-section figure img {
+    display: none;
+  }
+
+  footer figure a img {
+    width: 300px;
+    height: 100px;
+    margin: 10px 45px;
+  }
+
+  footer p {
+    display: none;
+  }
 }
