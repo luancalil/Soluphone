@@ -262,7 +262,7 @@ footer p {
 
   .div-button {
     padding-left: 0px;
-    margin: 50px 20px 0 50px;
+    margin: 50px auto 0 auto;
     padding-bottom: 50px;
   }
 
@@ -297,7 +297,7 @@ footer p {
 
   .quote p {
     margin-left: 40px;
-    width: 270px;
+    width: 250px;
     padding-top: 10px;
     font-size: 13px;
   }
