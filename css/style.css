@@ -132,6 +132,7 @@ hr {
 .third-section {
   background: #191919;
   color: #faf7f7;
+  width: 100%;
 }
 .third-section h1 {
   color: #faf7f7;
@@ -200,6 +201,9 @@ footer p {
 }
 
 @media only screen and (max-width: 787px) {
+  * {
+    overflow-x: hidden;
+  }
   button {
     background: none;
     border: 5px solid #00ff47;
